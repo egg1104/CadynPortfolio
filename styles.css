@@ -1,0 +1,95 @@
+#bodyBg{background-image: url(Images/HomeBackground.jpg);
+    width: 100%;
+}
+
+
+#AboutMeTxt{/*background color of the div*/
+    background-color: lightslategrey;
+    /*setting its width to auto*/
+    width: auto;
+    /*adding some padding*/
+    padding: 35px;
+    /*making the text color white*/
+color: #f4ebd5;
+/*setting the margin of the box*/
+margin:20px 350px 10px 350px;
+/*changes the font family*/
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*changes the size of font*/
+font-size: x-large;
+/*adding rounded edges to the div box*/
+border-radius: 10%;
+ }
+
+#welcome{
+    /*adds color to the welcome text*/
+    color:#f4ebd5;
+}
+#icons
+{
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ text-align: end;
+}
+
+#Icon1{width: 5%;
+padding: 5px;}
+#Icon2{width: 5%;
+padding: 3px;}
+
+/*This is my portfolio page css*/
+#PortfolioBackground{
+    background-image: url(Images/pexels-photo-129731.webp);
+    background-size: 100%;
+    
+}
+/*this is the text below the slide show*/
+#slidShowDesc{
+    /*Adding Font style to the page*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*changeing font size*/
+    font-size: larger;
+}
+/*this is for the Repository link logo size*/
+.RepositoryLink{width: 5%;
+}
+/*This is centering the Git Repository Link*/
+#LinkForGit{
+    text-align: center;
+}
+/*adding text to slide show images and styleing them*/
+.slideShowTxt{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+color: black;}
+/*Resume.html css */
+#ResumeBody{background-image: url(Images/ResumeBg.jpg);
+background-size: cover;
+
+}
+/* Contact.html css */
+/* this is the font for the Contact page */
+#FormConatain{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;}
+
+/* sets the text box height */
+textarea{height: 100px;}
+
+#ContactBg{background-image: url(Images/mountains-3324569_640.webp);
+background-size: 100%;}
+/*media query to add a breakpoint at 690px */
+@media screen and (max-width: 920px)
+{
+    #welcome{text-align: center;}
+    #AboutMeTxt{margin: 5px;}
+    #icons{position: static;
+    bottom: 0;
+    text-align: center;}
+    #Icon1{width: 20%;}
+    #Icon2{width: 20%;}
+    #ContactBg{background-size:cover;}
+    #ResumeBody{background-size: cover;}
+    #PortfolioBackground{background-size: cover;}
+    #bodyBg{background-size: cover;}
+}
+
